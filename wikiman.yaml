@@ -110,6 +110,8 @@ extensions:
     repoName: wikimedia/mediawiki-extensions-MultimediaViewer
   - name: Auth_remoteuser
     repoName: wikimedia/mediawiki-extensions-Auth_remoteuser
+  - name: Interwiki
+    repoName: wikimedia/mediawiki-extensions-Interwiki
   - name: WikibaseManifest
     repoName: wikimedia/mediawiki-extensions-WikibaseManifest
     remove:

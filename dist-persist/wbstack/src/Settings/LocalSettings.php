@@ -356,6 +356,9 @@ wfLoadExtension( 'EmbedVideo' );
 wfLoadExtension( 'DeleteBatch' );
 wfLoadExtension( 'MultimediaViewer' );
 wfLoadExtension( 'WikiHiero' );
+wfLoadExtension( 'Interwiki' );
+// To grant sysops permissions to edit interwiki data
+$wgGroupPermissions['sysop']['interwiki'] = true;
 
 # ConfirmAccount (only loaded when the setting is on)
 if( $wikiInfo->getSetting('wwExtEnableConfirmAccount') ) {
